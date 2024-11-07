@@ -17,7 +17,7 @@ watch(totalCount, () => {
   <nav>
     <RouterLink to="/"> <h2>Products</h2></RouterLink>
     <RouterLink to="/shopping-basket"><h2>Shopping Basket</h2></RouterLink>
-    <RouterLink to="/about"> <h2>About us</h2></RouterLink>
+    <RouterLink to="/about"> <h2>About</h2></RouterLink>
 
     <RouterLink to="/shopping-basket" class="basket">
       <h2 class="yellow">{{ totalCount }}</h2>
@@ -34,8 +34,10 @@ watch(totalCount, () => {
 <style>
 nav {
   padding: 0.5rem;
-  @media (min-width: 420px) {
+  flex-direction: column;
+  @media (min-width: 580px) {
     padding: 1rem;
+    flex-direction: row;
   }
   @media (min-width: 824) {
     padding: 2rem;
@@ -53,7 +55,9 @@ nav {
     display: flex;
     gap: 4px;
     align-items: center;
-    margin-left: auto;
+    @media (min-width: 580px) {
+      margin-left: auto;
+    }
   }
 }
 

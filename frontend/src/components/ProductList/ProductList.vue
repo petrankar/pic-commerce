@@ -28,7 +28,8 @@ const filteredProducts = computed(() => {
 })
 
 async function loadProducts() {
-  const res: PaginatedResponse = await fetchProductsByPage(currentPage.value, 5)
+  // products.value = []
+  const res: PaginatedResponse = await fetchProductsByPage(currentPage.value)
   products.value = res.data ?? []
   totalPages.value = res.pages
   prevPage.value = res.prev

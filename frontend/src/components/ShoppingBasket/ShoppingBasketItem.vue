@@ -40,16 +40,23 @@ const emits = defineEmits(['increase', 'decrease'])
   justify-content: space-between;
   border: 1px solid rgb(100, 100, 100);
   border-radius: 4px;
-  gap: 16px;
   flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 8px;
   @media (min-width: 480px) {
     flex-wrap: nowrap;
+    gap: 16px;
   }
 
   .details {
     display: flex;
     align-items: center;
     column-gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+    @media (min-width: 480px) {
+      justify-content: flex-start;
+    }
 
     img {
       height: auto;
@@ -61,7 +68,11 @@ const emits = defineEmits(['increase', 'decrease'])
     display: flex;
     gap: 10px;
     align-items: center;
-
+    justify-content: space-between;
+    width: 100%;
+    @media (min-width: 480px) {
+      width: auto;
+    }
     .quantity {
       display: flex;
       gap: 12px;

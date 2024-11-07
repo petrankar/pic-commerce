@@ -10,8 +10,10 @@ const { products, totalPrice } = toRefs(store)
   <div v-if="products?.length" class="shopping-basket">
     <div class="header">
       <span>Price</span>
-      <span>Quantity</span>
-      <span>Total</span>
+      <div class="last-labels">
+        <span>Quantity</span>
+        <span>Total</span>
+      </div>
     </div>
     <TransitionGroup tag="div">
       <ShoppingBasketItem
@@ -37,8 +39,14 @@ const { products, totalPrice } = toRefs(store)
 .shopping-basket {
   .header {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     column-gap: 68px;
+    .last-labels {
+      margin-left: auto;
+      display: flex;
+      column-gap: 56px;
+      padding: 0 18px;
+    }
   }
   .basket-footer {
     display: flex;
