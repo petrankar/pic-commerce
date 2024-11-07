@@ -18,6 +18,8 @@ git@github.com:petrankar/pic-commerce.git
 
 ### Install backend
 
+Go to the backend directory and install by following below commands:
+
 ```
 cd pic-commerce/backend
 npm install
@@ -25,22 +27,26 @@ npm install
 
 ### Run the backend
 
+Into the backend directory run
+
 ```
-cd pic-commerce/backend
 npx  json-server db.json
 ```
 
 ### Install frontend
 
+Go back one directory and browse frontend directory and run install:
+
 ```
-cd pic-commerce/frontend
+cd ../frontend
 npm install
 ```
 
 ### Run the frontend
 
+Into the frontend directory run:
+
 ```
-cd pic-commerce/frontend
 npm run dev
 ```
 
@@ -112,9 +118,6 @@ For styling purposes, we use `CSS` and the `Flexbox` layout to create a flexible
 ## Testing
 
 For testing, the application uses the Vitest library. To run the unit tests, use the following command:
-
-bash
-Αντιγραφή κώδικα
 
 ```
 npm run test:unit
