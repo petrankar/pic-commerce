@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": "30",
+      "name": "Shyamanta Baruah",
+      "price": 11.2,
+      "image": "https://picsum.photos/id/30/250/150",
+      "description": "red and white ceramic mug"
+    },
+    { "id": "39", "name": "Luke Chesser", "image": "https://picsum.photos/id/39/250/150", "price": 9.1 },
+    {
+      "id": "43",
+      "name": "Oleg Chursin",
+      "price": 18.9,
+      "image": "https://picsum.photos/id/43/250/150",
+      "description": "grayscale photo of lighted Brooklyn Bridge"
+    },
+    {
+      "id": "57",
+      "name": "Nicholas Swanson",
+      "price": 13.9,
+      "image": "https://picsum.photos/id/57/250/150",
+      "description": "photo of road between brown buildings"
+    },
+    {
+      "id": "59",
+      "name": "Art Wave",
+      "price": 11.9,
+      "image": "https://picsum.photos/id/59/250/150"
+    },
+    {
+      "id": "96",
+      "name": "Pawel Kadysz",
+      "price": 18.0,
+      "image": "https://picsum.photos/id/96/250/150",
+      "description": "turned on wireless dualshock game controller"
+    },
+    {
+      "id": "85",
+      "name": "Gozha Net",
+      "price": 8.9,
+      "image": "https://picsum.photos/id/85/250/150",
+      "description": "brown hay on tractor under white and blue sky"
+    },
+    {
+      "id": "84",
+      "name": "Johnny Lam",
+      "price": 28.0,
+      "image": "https://picsum.photos/id/84/250/150",
+      "description": "cable-stayed bridge at night time"
+    },
+    {
+      "id": "87",
+      "name": "Barcelona",
+      "price": 22.9,
+      "image": "https://picsum.photos/id/87/250/150",
+      "description": "aerial photography of bench near body of water"
+    },
+    {
+      "id": "119",
+      "name": "Nadir Balcikli",
+      "price": 8.9,
+      "image": "https://picsum.photos/id/119/250/150",
+      "description": "silver MacBook and black JBL"
+    },
+    {
+      "id": "133",
+      "name": "Dietmar Becker",
+      "price": 8.9,
+      "image": "https://picsum.photos/id/133/250/150",
+      "description": "two cars in front of shutter doors"
+    }
+  ]
+}
